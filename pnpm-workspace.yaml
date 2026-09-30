@@ -1,0 +1,7 @@
+packages:
+  - backend
+  - frontend
+
+allowBuilds:
+  "@nestjs/core": true
+  esbuild: true

@@ -1,0 +1,12 @@
+{
+  "name": "webtoon-rag-agent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel --stream -r dev",
+    "dev:backend": "pnpm --filter backend dev",
+    "dev:frontend": "pnpm --filter frontend dev",
+    "build": "pnpm -r build",
+    "start": "pnpm --filter backend start:prod"
+  }
+}
